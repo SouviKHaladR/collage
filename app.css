@@ -188,6 +188,25 @@ body {
     --size: 2px;
     transition-duration: 0.7s;
   }
+
+#audioPlayer {
+    position: fixed;
+    bottom: 20px;
+    left: 200px;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index:2;
+}
+
+#audioPlayer audio {
+    width:200px;
+    height: 30px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
   
   @font-face {
     font-family: "Orelo-sw-db";
