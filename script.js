@@ -1,6 +1,13 @@
 /*--------------------
 Vars
+
 --------------------*/
+
+window.onload= function(){
+  var audio=document.getElementById("myAudio");
+  audio.onplay();
+}
+
 let progress = 50
 let startX = 0
 let active = 0
